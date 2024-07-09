@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Organaizer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">Мотивацию надо поднять</string>
+    <string name="add_widget">Add widget</string>
+    <string name="appwidget_reminder_task">Ваша задача</string>
+    <string name="appwidget_reminder_date">Срок выполнения</string>
+    <string name="app_widget_motivation_description">Widget motivation</string>
+    <string name="app_widget_reminder_description">Widget reminder</string>
+</resources>

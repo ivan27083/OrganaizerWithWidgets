@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Organaizer.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_fon"
+    android:theme="@style/Theme.Organaizer.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/appwidget_text"
+        style="@style/Widget.Organaizer.AppWidget.InnerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeMinTextSize="12sp"
+        android:autoSizeTextType="uniform"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/appwidget_text"
+        android:gravity="center"
+        android:text="Сделай сегодня то, что другие не хотят, и завтра будешь жить так, как другие не могут"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

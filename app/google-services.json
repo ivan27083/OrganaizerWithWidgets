@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1000626946203",
+    "project_id": "try2-72340",
+    "storage_bucket": "try2-72340.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000626946203:android:810bf2d5a5c0f37a9b063e",
+        "android_client_info": {
+          "package_name": "com.example.organaizer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi0wXG7S3kTTSzXFW5j6c7t37u03ieAMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

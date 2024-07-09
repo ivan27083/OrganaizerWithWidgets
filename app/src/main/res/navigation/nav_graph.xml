@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/purposesFragment">
+
+    <fragment
+        android:id="@+id/motivationFragment"
+        android:name="com.example.organaizer.ui.fragments.MotivationFragment"
+        android:label="MotivationFragment" />
+    <fragment
+        android:id="@+id/purposesFragment"
+        android:name="com.example.organaizer.ui.fragments.PurposesFragment"
+        android:label="PurposesFragment" />
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.organaizer.ui.fragments.CalendarFragment"
+        android:label="CalendarFragment"
+        tools:layout="@layout/fragment_calendar" />
+</navigation>
